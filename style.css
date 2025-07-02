@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(166, 166, 220)
+    
+}
+h1{
+    color: rgb(23, 0, 98);
+    text-align: center;
+}
+p{                      
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+button{
+    display: block;
+    border: none;
+    margin: 30px auto;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-style: oblique;
+    background-color: rgb(223, 190, 58);
+}
+#score {
+    font-weight: bold;
+    font-size: 36px;
+}
+.shop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+.shop button {
+    float: none;
+    margin: 10px 0;
+    display: block;
+}
